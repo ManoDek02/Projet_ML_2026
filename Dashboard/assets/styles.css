@@ -1,0 +1,383 @@
+
+/* ============================================================
+   THÈME ORANGE - CARDIOPREDICT ML
+   ============================================================ */
+
+:root {
+    --primary-orange: #FF6B35;
+    --secondary-orange: #FF8C42;
+    --light-orange: #FFB347;
+    --dark-orange: #E55934;
+    --bg-light: #FFF8F3;
+    --border-orange: #FFD4B8;
+}
+
+/* GÉNÉRAL */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #FFF8F3 0%, #FFE8D6 100%);
+}
+
+/* ============================================================
+   NAVBAR MODERNE - NOUVEAU DESIGN
+   ============================================================ */
+
+/* Navbar principal - fond blanc */
+.custom-navbar {
+    background-color: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 !important;
+}
+
+/* Section supérieure - Logo et nom */
+.navbar-top {
+    padding: 1rem 2rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    object-fit: contain;
+}
+
+.navbar-brand-custom {
+    color: #FF6B35 !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand-custom:hover {
+    color: #F44336 !important;
+    transform: scale(1.02);
+}
+
+/* Bande orange en bas avec les liens */
+.navbar-bottom {
+    background: linear-gradient(135deg, #FF6B35 0%, #F44336 100%);
+    padding: 0;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-links li {
+    margin: 0;
+}
+
+.navbar-link-custom {
+    color: white !important;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+/* Effet hover - signal visuel */
+.navbar-link-custom:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 3px solid white;
+    transform: translateY(-2px);
+}
+
+/* Page active - indicateur visible */
+.navbar-link-active {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-bottom: 3px solid white !important;
+    font-weight: bold;
+}
+
+/* Icônes dans les liens */
+.navbar-link-custom i {
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Responsive navbar */
+@media (max-width: 768px) {
+    .navbar-top {
+        padding: 0.8rem 1rem;
+        justify-content: center;
+    }
+    
+    .navbar-logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .navbar-brand-custom {
+        font-size: 1.3rem;
+    }
+    
+    .navbar-links {
+        flex-direction: column;
+    }
+    
+    .navbar-link-custom {
+        padding: 0.8rem 1rem;
+        justify-content: center;
+        border-bottom: none;
+        border-left: 3px solid transparent;
+    }
+    
+    .navbar-link-custom:hover {
+        border-left: 3px solid white;
+        border-bottom: none;
+    }
+    
+    .navbar-link-active {
+        border-left: 3px solid white !important;
+        border-bottom: none !important;
+    }
+}
+
+/* ============================================================
+   ANCIEN NAVBAR (CONSERVÉ POUR COMPATIBILITÉ)
+   ============================================================ */
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar {
+    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--dark-orange) 100%) !important;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.2);
+    border: 2px solid var(--border-orange);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+}
+
+/* STAT CARDS */
+.stat-card {
+    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--secondary-orange) 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(255, 107, 53, 0.3);
+    border: none;
+}
+
+.stat-card h2, .stat-card h3 {
+    font-weight: 800;
+    margin: 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--dark-orange) 100%);
+    border: none;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.btn-secondary {
+    background: white;
+    border: 2px solid var(--primary-orange);
+    color: var(--primary-orange);
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 12px;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-orange);
+    color: white;
+}
+
+/* ============================================================
+   FORMS
+   ============================================================ */
+
+.form-control, .form-select {
+    border: 2px solid var(--border-orange);
+    border-radius: 10px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-orange);
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 53, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* ============================================================
+   ALERTS
+   ============================================================ */
+
+.alert {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.alert-success {
+    background: linear-gradient(135deg, #4CAF50 0%, #45A049 100%);
+    color: white;
+}
+
+.alert-danger {
+    background: linear-gradient(135deg, #F44336 0%, #D32F2F 100%);
+    color: white;
+}
+
+.alert-warning {
+    background: linear-gradient(135deg, var(--light-orange) 0%, var(--secondary-orange) 100%);
+    color: white;
+}
+
+.alert-info {
+    background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+    color: white;
+}
+
+/* ============================================================
+   TEXT COLORS
+   ============================================================ */
+
+.text-orange {
+    color: var(--primary-orange) !important;
+}
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+
+.dash-table-container {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.dash-spreadsheet th {
+    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--secondary-orange) 100%) !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.dash-spreadsheet tr:nth-child(even) {
+    background-color: var(--bg-light) !important;
+}
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 768px) {
+    .stat-card h2, .stat-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+    
+    .btn-primary, .btn-secondary {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* ============================================================
+   SCROLLBAR PERSONNALISÉE (OPTIONNEL)
+   ============================================================ */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-orange);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-orange);
+}

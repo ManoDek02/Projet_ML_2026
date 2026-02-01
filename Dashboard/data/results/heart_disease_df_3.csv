@@ -1,0 +1,298 @@
+âge,sexe,type_douleur_thoracique,pression_artérielle_repos,cholestérol,glycémie_à_jeun,électrocardiogramme_repos,fréquence_cardiaque_maximale,angine_induite_par_exercice,dépression_st,pente_st,nombre_vaisseaux_majeurs,thalassémie,num,maladie_cardiaque
+63,homme,angine typique,145,233,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,150,non,2.3,descendante,0,défaut fixe,0,0
+67,homme,asymptomatique,160,286,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,108,oui,1.5,plate,3,normal,2,1
+67,homme,asymptomatique,120,229,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,129,oui,2.6,plate,2,défaut réversible,1,1
+37,homme,douleur non angineuse,130,250,inférieure à 120mg/ml,normal,187,non,3.5,descendante,0,normal,0,0
+41,femme,angine atypique,130,204,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,172,non,1.4,ascendante,0,normal,0,0
+56,homme,angine atypique,120,236,inférieure à 120mg/ml,normal,178,non,0.8,ascendante,0,normal,0,0
+62,femme,asymptomatique,140,268,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,160,non,3.6,descendante,2,normal,3,1
+57,femme,asymptomatique,120,354,inférieure à 120mg/ml,normal,163,oui,0.6,ascendante,0,normal,0,0
+63,homme,asymptomatique,130,254,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,147,non,1.4,plate,1,défaut réversible,2,1
+53,homme,asymptomatique,140,203,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,155,oui,3.1,descendante,0,défaut réversible,1,1
+57,homme,asymptomatique,140,192,inférieure à 120mg/ml,normal,148,non,0.4,plate,0,défaut fixe,0,0
+56,femme,angine atypique,140,294,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,153,non,1.3,plate,0,normal,0,0
+56,homme,douleur non angineuse,130,256,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,142,oui,0.6,plate,1,défaut fixe,2,1
+44,homme,angine atypique,120,263,inférieure à 120mg/ml,normal,173,non,0.0,ascendante,0,défaut réversible,0,0
+52,homme,douleur non angineuse,172,199,supérieure à 120mg/ml,normal,162,non,0.5,ascendante,0,défaut réversible,0,0
+57,homme,douleur non angineuse,150,168,inférieure à 120mg/ml,normal,174,non,1.6,ascendante,0,normal,0,0
+48,homme,angine atypique,110,229,inférieure à 120mg/ml,normal,168,non,1.0,descendante,0,défaut réversible,1,1
+54,homme,asymptomatique,140,239,inférieure à 120mg/ml,normal,160,non,1.2,ascendante,0,normal,0,0
+48,femme,douleur non angineuse,130,275,inférieure à 120mg/ml,normal,139,non,0.2,ascendante,0,normal,0,0
+49,homme,angine atypique,130,266,inférieure à 120mg/ml,normal,171,non,0.6,ascendante,0,normal,0,0
+64,homme,angine typique,110,211,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,144,oui,1.8,plate,0,normal,0,0
+58,femme,angine typique,150,283,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,162,non,1.0,ascendante,0,normal,0,0
+58,homme,angine atypique,120,284,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,160,non,1.8,plate,0,normal,1,1
+58,homme,douleur non angineuse,132,224,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,173,non,3.2,ascendante,2,défaut réversible,3,1
+60,homme,asymptomatique,130,206,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,132,oui,2.4,plate,2,défaut réversible,4,1
+50,femme,douleur non angineuse,120,219,inférieure à 120mg/ml,normal,158,non,1.6,plate,0,normal,0,0
+58,femme,douleur non angineuse,120,340,inférieure à 120mg/ml,normal,172,non,0.0,ascendante,0,normal,0,0
+66,femme,angine typique,150,226,inférieure à 120mg/ml,normal,114,non,2.6,descendante,0,normal,0,0
+43,homme,asymptomatique,150,247,inférieure à 120mg/ml,normal,171,non,1.5,ascendante,0,normal,0,0
+40,homme,asymptomatique,110,167,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,114,oui,2.0,plate,0,défaut réversible,3,1
+69,femme,angine typique,140,239,inférieure à 120mg/ml,normal,151,non,1.8,ascendante,2,normal,0,0
+60,homme,asymptomatique,117,230,supérieure à 120mg/ml,normal,160,oui,1.4,ascendante,2,défaut réversible,2,1
+64,homme,douleur non angineuse,140,335,inférieure à 120mg/ml,normal,158,non,0.0,ascendante,0,normal,1,1
+59,homme,asymptomatique,135,234,inférieure à 120mg/ml,normal,161,non,0.5,plate,0,défaut réversible,0,0
+44,homme,douleur non angineuse,130,233,inférieure à 120mg/ml,normal,179,oui,0.4,ascendante,0,normal,0,0
+42,homme,asymptomatique,140,226,inférieure à 120mg/ml,normal,178,non,0.0,ascendante,0,normal,0,0
+43,homme,asymptomatique,120,177,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,120,oui,2.5,plate,0,défaut réversible,3,1
+57,homme,asymptomatique,150,276,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,112,oui,0.6,plate,1,défaut fixe,1,1
+55,homme,asymptomatique,132,353,inférieure à 120mg/ml,normal,132,oui,1.2,plate,1,défaut réversible,3,1
+61,homme,douleur non angineuse,150,243,supérieure à 120mg/ml,normal,137,oui,1.0,plate,0,normal,0,0
+65,femme,asymptomatique,150,225,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,114,non,1.0,plate,3,défaut réversible,4,1
+40,homme,angine typique,140,199,inférieure à 120mg/ml,normal,178,oui,1.4,ascendante,0,défaut réversible,0,0
+71,femme,angine atypique,160,302,inférieure à 120mg/ml,normal,162,non,0.4,ascendante,2,normal,0,0
+59,homme,douleur non angineuse,150,212,supérieure à 120mg/ml,normal,157,non,1.6,ascendante,0,normal,0,0
+61,femme,asymptomatique,130,330,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,169,non,0.0,ascendante,0,normal,1,1
+58,homme,douleur non angineuse,112,230,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,165,non,2.5,plate,1,défaut réversible,4,1
+51,homme,douleur non angineuse,110,175,inférieure à 120mg/ml,normal,123,non,0.6,ascendante,0,normal,0,0
+50,homme,asymptomatique,150,243,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,128,non,2.6,plate,0,défaut réversible,4,1
+65,femme,douleur non angineuse,140,417,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,157,non,0.8,ascendante,1,normal,0,0
+53,homme,douleur non angineuse,130,197,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,152,non,1.2,descendante,0,normal,0,0
+41,femme,angine atypique,105,198,inférieure à 120mg/ml,normal,168,non,0.0,ascendante,1,normal,0,0
+65,homme,asymptomatique,120,177,inférieure à 120mg/ml,normal,140,non,0.4,ascendante,0,défaut réversible,0,0
+44,homme,asymptomatique,112,290,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,153,non,0.0,ascendante,1,normal,2,1
+44,homme,angine atypique,130,219,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,188,non,0.0,ascendante,0,normal,0,0
+60,homme,asymptomatique,130,253,inférieure à 120mg/ml,normal,144,oui,1.4,ascendante,1,défaut réversible,1,1
+54,homme,asymptomatique,124,266,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,109,oui,2.2,plate,1,défaut réversible,1,1
+50,homme,douleur non angineuse,140,233,inférieure à 120mg/ml,normal,163,non,0.6,plate,1,défaut réversible,1,1
+41,homme,asymptomatique,110,172,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,158,non,0.0,ascendante,0,défaut réversible,1,1
+54,homme,douleur non angineuse,125,273,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,152,non,0.5,descendante,1,normal,0,0
+51,homme,angine typique,125,213,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,125,oui,1.4,ascendante,1,normal,0,0
+51,femme,asymptomatique,130,305,inférieure à 120mg/ml,normal,142,oui,1.2,plate,0,défaut réversible,2,1
+46,femme,douleur non angineuse,142,177,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,160,oui,1.4,descendante,0,normal,0,0
+58,homme,asymptomatique,128,216,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,131,oui,2.2,plate,3,défaut réversible,1,1
+54,femme,douleur non angineuse,135,304,supérieure à 120mg/ml,normal,170,non,0.0,ascendante,0,normal,0,0
+54,homme,asymptomatique,120,188,inférieure à 120mg/ml,normal,113,non,1.4,plate,1,défaut réversible,2,1
+60,homme,asymptomatique,145,282,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,142,oui,2.8,plate,2,défaut réversible,2,1
+60,homme,douleur non angineuse,140,185,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,155,non,3.0,plate,0,normal,1,1
+54,homme,douleur non angineuse,150,232,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,165,non,1.6,ascendante,0,défaut réversible,0,0
+59,homme,asymptomatique,170,326,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,140,oui,3.4,descendante,0,défaut réversible,2,1
+46,homme,douleur non angineuse,150,231,inférieure à 120mg/ml,normal,147,non,3.6,plate,0,normal,1,1
+65,femme,douleur non angineuse,155,269,inférieure à 120mg/ml,normal,148,non,0.8,ascendante,0,normal,0,0
+67,homme,asymptomatique,125,254,supérieure à 120mg/ml,normal,163,non,0.2,plate,2,défaut réversible,3,1
+62,homme,asymptomatique,120,267,inférieure à 120mg/ml,normal,99,oui,1.8,plate,2,défaut réversible,1,1
+65,homme,asymptomatique,110,248,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,158,non,0.6,ascendante,2,défaut fixe,1,1
+44,homme,asymptomatique,110,197,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,177,non,0.0,ascendante,1,normal,1,1
+65,femme,douleur non angineuse,160,360,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,151,non,0.8,ascendante,0,normal,0,0
+60,homme,asymptomatique,125,258,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,141,oui,2.8,plate,1,défaut réversible,1,1
+51,femme,douleur non angineuse,140,308,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,142,non,1.5,ascendante,1,normal,0,0
+48,homme,angine atypique,130,245,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,180,non,0.2,plate,0,normal,0,0
+58,homme,asymptomatique,150,270,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,111,oui,0.8,ascendante,0,défaut réversible,3,1
+45,homme,asymptomatique,104,208,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,148,oui,3.0,plate,0,normal,0,0
+53,femme,asymptomatique,130,264,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,143,non,0.4,plate,0,normal,0,0
+39,homme,douleur non angineuse,140,321,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,182,non,0.0,ascendante,0,normal,0,0
+68,homme,douleur non angineuse,180,274,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,150,oui,1.6,plate,0,défaut réversible,3,1
+52,homme,angine atypique,120,325,inférieure à 120mg/ml,normal,172,non,0.2,ascendante,0,normal,0,0
+44,homme,douleur non angineuse,140,235,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,180,non,0.0,ascendante,0,normal,0,0
+47,homme,douleur non angineuse,138,257,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,156,non,0.0,ascendante,0,normal,0,0
+53,femme,asymptomatique,138,234,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,160,non,0.0,ascendante,0,normal,0,0
+51,femme,douleur non angineuse,130,256,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,149,non,0.5,ascendante,0,normal,0,0
+66,homme,asymptomatique,120,302,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,151,non,0.4,plate,0,normal,0,0
+62,femme,asymptomatique,160,164,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,145,non,6.2,descendante,3,défaut réversible,3,1
+62,homme,douleur non angineuse,130,231,inférieure à 120mg/ml,normal,146,non,1.8,plate,3,défaut réversible,0,0
+44,femme,douleur non angineuse,108,141,inférieure à 120mg/ml,normal,175,non,0.6,plate,0,normal,0,0
+63,femme,douleur non angineuse,135,252,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,172,non,0.0,ascendante,0,normal,0,0
+52,homme,asymptomatique,128,255,inférieure à 120mg/ml,normal,161,oui,0.0,ascendante,1,défaut réversible,1,1
+59,homme,asymptomatique,110,239,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,142,oui,1.2,plate,1,défaut réversible,2,1
+60,femme,asymptomatique,150,258,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,157,non,2.6,plate,2,défaut réversible,3,1
+52,homme,angine atypique,134,201,inférieure à 120mg/ml,normal,158,non,0.8,ascendante,1,normal,0,0
+48,homme,asymptomatique,122,222,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,186,non,0.0,ascendante,0,normal,0,0
+45,homme,asymptomatique,115,260,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,185,non,0.0,ascendante,0,normal,0,0
+34,homme,angine typique,118,182,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,174,non,0.0,ascendante,0,normal,0,0
+57,femme,asymptomatique,128,303,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,159,non,0.0,ascendante,1,normal,0,0
+71,femme,douleur non angineuse,110,265,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,130,non,0.0,ascendante,1,normal,0,0
+49,homme,douleur non angineuse,120,188,inférieure à 120mg/ml,normal,139,non,2.0,plate,3,défaut réversible,3,1
+54,homme,angine atypique,108,309,inférieure à 120mg/ml,normal,156,non,0.0,ascendante,0,défaut réversible,0,0
+59,homme,asymptomatique,140,177,inférieure à 120mg/ml,normal,162,oui,0.0,ascendante,1,défaut réversible,2,1
+57,homme,douleur non angineuse,128,229,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,150,non,0.4,plate,1,défaut réversible,1,1
+61,homme,asymptomatique,120,260,inférieure à 120mg/ml,normal,140,oui,3.6,plate,1,défaut réversible,2,1
+39,homme,asymptomatique,118,219,inférieure à 120mg/ml,normal,140,non,1.2,plate,0,défaut réversible,3,1
+61,femme,asymptomatique,145,307,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,146,oui,1.0,plate,0,défaut réversible,1,1
+56,homme,asymptomatique,125,249,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,144,oui,1.2,plate,1,normal,1,1
+52,homme,angine typique,118,186,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,190,non,0.0,plate,0,défaut fixe,0,0
+43,femme,asymptomatique,132,341,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,136,oui,3.0,plate,0,défaut réversible,2,1
+62,femme,douleur non angineuse,130,263,inférieure à 120mg/ml,normal,97,non,1.2,plate,1,défaut réversible,2,1
+41,homme,angine atypique,135,203,inférieure à 120mg/ml,normal,132,non,0.0,plate,0,défaut fixe,0,0
+58,homme,douleur non angineuse,140,211,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,165,non,0.0,ascendante,0,normal,0,0
+35,femme,asymptomatique,138,183,inférieure à 120mg/ml,normal,182,non,1.4,ascendante,0,normal,0,0
+63,homme,asymptomatique,130,330,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,132,oui,1.8,ascendante,3,défaut réversible,3,1
+65,homme,asymptomatique,135,254,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,127,non,2.8,plate,1,défaut réversible,2,1
+48,homme,asymptomatique,130,256,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,150,oui,0.0,ascendante,2,défaut réversible,3,1
+63,femme,asymptomatique,150,407,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,154,non,4.0,plate,3,défaut réversible,4,1
+51,homme,douleur non angineuse,100,222,inférieure à 120mg/ml,normal,143,oui,1.2,plate,0,normal,0,0
+55,homme,asymptomatique,140,217,inférieure à 120mg/ml,normal,111,oui,5.6,descendante,0,défaut réversible,3,1
+65,homme,angine typique,138,282,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,174,non,1.4,plate,1,normal,1,1
+45,femme,angine atypique,130,234,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,175,non,0.6,plate,0,normal,0,0
+56,femme,asymptomatique,200,288,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,133,oui,4.0,descendante,2,défaut réversible,3,1
+54,homme,asymptomatique,110,239,inférieure à 120mg/ml,normal,126,oui,2.8,plate,1,défaut réversible,3,1
+44,homme,angine atypique,120,220,inférieure à 120mg/ml,normal,170,non,0.0,ascendante,0,normal,0,0
+62,femme,asymptomatique,124,209,inférieure à 120mg/ml,normal,163,non,0.0,ascendante,0,normal,0,0
+54,homme,douleur non angineuse,120,258,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,147,non,0.4,plate,0,défaut réversible,0,0
+51,homme,douleur non angineuse,94,227,inférieure à 120mg/ml,normal,154,oui,0.0,ascendante,1,défaut réversible,0,0
+29,homme,angine atypique,130,204,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,202,non,0.0,ascendante,0,normal,0,0
+51,homme,asymptomatique,140,261,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,186,oui,0.0,ascendante,0,normal,0,0
+43,femme,douleur non angineuse,122,213,inférieure à 120mg/ml,normal,165,non,0.2,plate,0,normal,0,0
+55,femme,angine atypique,135,250,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,161,non,1.4,plate,0,normal,0,0
+70,homme,asymptomatique,145,174,inférieure à 120mg/ml,normal,125,oui,2.6,descendante,0,défaut réversible,4,1
+62,homme,angine atypique,120,281,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,103,non,1.4,plate,1,défaut réversible,3,1
+35,homme,asymptomatique,120,198,inférieure à 120mg/ml,normal,130,oui,1.6,plate,0,défaut réversible,1,1
+51,homme,douleur non angineuse,125,245,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,166,non,2.4,plate,0,normal,0,0
+59,homme,angine atypique,140,221,inférieure à 120mg/ml,normal,164,oui,0.0,ascendante,0,normal,0,0
+59,homme,angine typique,170,288,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,159,non,0.2,plate,0,défaut réversible,1,1
+52,homme,angine atypique,128,205,supérieure à 120mg/ml,normal,184,non,0.0,ascendante,0,normal,0,0
+64,homme,douleur non angineuse,125,309,inférieure à 120mg/ml,normal,131,oui,1.8,plate,0,défaut réversible,1,1
+58,homme,douleur non angineuse,105,240,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,154,oui,0.6,plate,0,défaut réversible,0,0
+47,homme,douleur non angineuse,108,243,inférieure à 120mg/ml,normal,152,non,0.0,ascendante,0,normal,1,1
+57,homme,asymptomatique,165,289,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,124,non,1.0,plate,3,défaut réversible,4,1
+41,homme,douleur non angineuse,112,250,inférieure à 120mg/ml,normal,179,non,0.0,ascendante,0,normal,0,0
+45,homme,angine atypique,128,308,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,170,non,0.0,ascendante,0,normal,0,0
+60,femme,douleur non angineuse,102,318,inférieure à 120mg/ml,normal,160,non,0.0,ascendante,1,normal,0,0
+52,homme,angine typique,152,298,supérieure à 120mg/ml,normal,178,non,1.2,plate,0,défaut réversible,0,0
+42,femme,asymptomatique,102,265,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,122,non,0.6,plate,0,normal,0,0
+67,femme,douleur non angineuse,115,564,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,160,non,1.6,plate,0,défaut réversible,0,0
+55,homme,asymptomatique,160,289,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,145,oui,0.8,plate,1,défaut réversible,4,1
+64,homme,asymptomatique,120,246,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,96,oui,2.2,descendante,1,normal,3,1
+70,homme,asymptomatique,130,322,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,109,non,2.4,plate,3,normal,1,1
+51,homme,asymptomatique,140,299,inférieure à 120mg/ml,normal,173,oui,1.6,ascendante,0,défaut réversible,1,1
+58,homme,asymptomatique,125,300,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,171,non,0.0,ascendante,2,défaut réversible,1,1
+60,homme,asymptomatique,140,293,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,170,non,1.2,plate,2,défaut réversible,2,1
+68,homme,douleur non angineuse,118,277,inférieure à 120mg/ml,normal,151,non,1.0,ascendante,1,défaut réversible,0,0
+46,homme,angine atypique,101,197,supérieure à 120mg/ml,normal,156,non,0.0,ascendante,0,défaut réversible,0,0
+77,homme,asymptomatique,125,304,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,162,oui,0.0,ascendante,3,normal,4,1
+54,femme,douleur non angineuse,110,214,inférieure à 120mg/ml,normal,158,non,1.6,plate,0,normal,0,0
+58,femme,asymptomatique,100,248,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,122,non,1.0,plate,0,normal,0,0
+48,homme,douleur non angineuse,124,255,supérieure à 120mg/ml,normal,175,non,0.0,ascendante,2,normal,0,0
+57,homme,asymptomatique,132,207,inférieure à 120mg/ml,normal,168,oui,0.0,ascendante,0,défaut réversible,0,0
+54,femme,angine atypique,132,288,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,159,oui,0.0,ascendante,1,normal,0,0
+35,homme,asymptomatique,126,282,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,156,oui,0.0,ascendante,0,défaut réversible,1,1
+45,femme,angine atypique,112,160,inférieure à 120mg/ml,normal,138,non,0.0,plate,0,normal,0,0
+70,homme,douleur non angineuse,160,269,inférieure à 120mg/ml,normal,112,oui,2.9,plate,1,défaut réversible,3,1
+53,homme,asymptomatique,142,226,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,111,oui,0.0,ascendante,0,défaut réversible,0,0
+59,femme,asymptomatique,174,249,inférieure à 120mg/ml,normal,143,oui,0.0,plate,0,normal,1,1
+62,femme,asymptomatique,140,394,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,157,non,1.2,plate,0,normal,0,0
+64,homme,asymptomatique,145,212,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,132,non,2.0,plate,2,défaut fixe,4,1
+57,homme,asymptomatique,152,274,inférieure à 120mg/ml,normal,88,oui,1.2,plate,1,défaut réversible,1,1
+52,homme,asymptomatique,108,233,supérieure à 120mg/ml,normal,147,non,0.1,ascendante,3,défaut réversible,0,0
+56,homme,asymptomatique,132,184,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,105,oui,2.1,plate,1,défaut fixe,1,1
+43,homme,douleur non angineuse,130,315,inférieure à 120mg/ml,normal,162,non,1.9,ascendante,1,normal,0,0
+53,homme,douleur non angineuse,130,246,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,173,non,0.0,ascendante,3,normal,0,0
+48,homme,asymptomatique,124,274,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,166,non,0.5,plate,0,défaut réversible,3,1
+56,femme,asymptomatique,134,409,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,150,oui,1.9,plate,2,défaut réversible,2,1
+42,homme,angine typique,148,244,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,178,non,0.8,ascendante,2,normal,0,0
+59,homme,angine typique,178,270,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,145,non,4.2,descendante,0,défaut réversible,0,0
+60,femme,asymptomatique,158,305,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,161,non,0.0,ascendante,0,normal,1,1
+63,femme,angine atypique,140,195,inférieure à 120mg/ml,normal,179,non,0.0,ascendante,2,normal,0,0
+42,homme,douleur non angineuse,120,240,supérieure à 120mg/ml,normal,194,non,0.8,descendante,0,défaut réversible,0,0
+66,homme,angine atypique,160,246,inférieure à 120mg/ml,normal,120,oui,0.0,plate,3,défaut fixe,2,1
+54,homme,angine atypique,192,283,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,195,non,0.0,ascendante,1,défaut réversible,1,1
+69,homme,douleur non angineuse,140,254,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,146,non,2.0,plate,3,défaut réversible,2,1
+50,homme,douleur non angineuse,129,196,inférieure à 120mg/ml,normal,163,non,0.0,ascendante,0,normal,0,0
+51,homme,asymptomatique,140,298,inférieure à 120mg/ml,normal,122,oui,4.2,plate,3,défaut réversible,3,1
+62,femme,asymptomatique,138,294,supérieure à 120mg/ml,normal,106,non,1.9,plate,3,normal,2,1
+68,femme,douleur non angineuse,120,211,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,115,non,1.5,plate,0,normal,0,0
+67,homme,asymptomatique,100,299,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,125,oui,0.9,plate,2,normal,3,1
+69,homme,angine typique,160,234,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,131,non,0.1,plate,1,normal,0,0
+45,femme,asymptomatique,138,236,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,152,oui,0.2,plate,0,normal,0,0
+50,femme,angine atypique,120,244,inférieure à 120mg/ml,normal,162,non,1.1,ascendante,0,normal,0,0
+59,homme,angine typique,160,273,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,125,non,0.0,ascendante,0,normal,1,1
+50,femme,asymptomatique,110,254,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,159,non,0.0,ascendante,0,normal,0,0
+64,femme,asymptomatique,180,325,inférieure à 120mg/ml,normal,154,oui,0.0,ascendante,0,normal,0,0
+57,homme,douleur non angineuse,150,126,supérieure à 120mg/ml,normal,173,non,0.2,ascendante,1,défaut réversible,0,0
+64,femme,douleur non angineuse,140,313,inférieure à 120mg/ml,normal,133,non,0.2,ascendante,0,défaut réversible,0,0
+43,homme,asymptomatique,110,211,inférieure à 120mg/ml,normal,161,non,0.0,ascendante,0,défaut réversible,0,0
+45,homme,asymptomatique,142,309,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,147,oui,0.0,plate,3,défaut réversible,3,1
+58,homme,asymptomatique,128,259,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,130,oui,3.0,plate,2,défaut réversible,3,1
+50,homme,asymptomatique,144,200,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,126,oui,0.9,plate,0,défaut réversible,3,1
+55,homme,angine atypique,130,262,inférieure à 120mg/ml,normal,155,non,0.0,ascendante,0,normal,0,0
+62,femme,asymptomatique,150,244,inférieure à 120mg/ml,normal,154,oui,1.4,plate,0,normal,1,1
+37,femme,douleur non angineuse,120,215,inférieure à 120mg/ml,normal,170,non,0.0,ascendante,0,normal,0,0
+38,homme,angine typique,120,231,inférieure à 120mg/ml,normal,182,oui,3.8,plate,0,défaut réversible,4,1
+41,homme,douleur non angineuse,130,214,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,168,non,2.0,plate,0,normal,0,0
+66,femme,asymptomatique,178,228,supérieure à 120mg/ml,normal,165,oui,1.0,plate,2,défaut réversible,3,1
+52,homme,asymptomatique,112,230,inférieure à 120mg/ml,normal,160,non,0.0,ascendante,1,normal,1,1
+56,homme,angine typique,120,193,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,162,non,1.9,plate,0,défaut réversible,0,0
+46,femme,angine atypique,105,204,inférieure à 120mg/ml,normal,172,non,0.0,ascendante,0,normal,0,0
+46,femme,asymptomatique,138,243,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,152,oui,0.0,plate,0,normal,0,0
+64,femme,asymptomatique,130,303,inférieure à 120mg/ml,normal,122,non,2.0,plate,2,normal,0,0
+59,homme,asymptomatique,138,271,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,182,non,0.0,ascendante,0,normal,0,0
+41,femme,douleur non angineuse,112,268,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,172,oui,0.0,ascendante,0,normal,0,0
+54,femme,douleur non angineuse,108,267,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,167,non,0.0,ascendante,0,normal,0,0
+39,femme,douleur non angineuse,94,199,inférieure à 120mg/ml,normal,179,non,0.0,ascendante,0,normal,0,0
+53,homme,asymptomatique,123,282,inférieure à 120mg/ml,normal,95,oui,2.0,plate,2,défaut réversible,3,1
+63,femme,asymptomatique,108,269,inférieure à 120mg/ml,normal,169,oui,1.8,plate,2,normal,1,1
+34,femme,angine atypique,118,210,inférieure à 120mg/ml,normal,192,non,0.7,ascendante,0,normal,0,0
+47,homme,asymptomatique,112,204,inférieure à 120mg/ml,normal,143,non,0.1,ascendante,0,normal,0,0
+67,femme,douleur non angineuse,152,277,inférieure à 120mg/ml,normal,172,non,0.0,ascendante,1,normal,0,0
+54,homme,asymptomatique,110,206,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,108,oui,0.0,plate,1,normal,3,1
+66,homme,asymptomatique,112,212,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,132,oui,0.1,ascendante,1,normal,2,1
+52,femme,douleur non angineuse,136,196,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,169,non,0.1,plate,0,normal,0,0
+55,femme,asymptomatique,180,327,inférieure à 120mg/ml,anomalie onde ST-T,117,oui,3.4,plate,0,normal,2,1
+49,homme,douleur non angineuse,118,149,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,126,non,0.8,ascendante,3,normal,1,1
+74,femme,angine atypique,120,269,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,121,oui,0.2,ascendante,1,normal,0,0
+54,femme,douleur non angineuse,160,201,inférieure à 120mg/ml,normal,163,non,0.0,ascendante,1,normal,0,0
+54,homme,asymptomatique,122,286,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,116,oui,3.2,plate,2,normal,3,1
+56,homme,asymptomatique,130,283,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,103,oui,1.6,descendante,0,défaut réversible,2,1
+46,homme,asymptomatique,120,249,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,144,non,0.8,ascendante,0,défaut réversible,1,1
+49,femme,angine atypique,134,271,inférieure à 120mg/ml,normal,162,non,0.0,plate,0,normal,0,0
+42,homme,angine atypique,120,295,inférieure à 120mg/ml,normal,162,non,0.0,ascendante,0,normal,0,0
+41,homme,angine atypique,110,235,inférieure à 120mg/ml,normal,153,non,0.0,ascendante,0,normal,0,0
+41,femme,angine atypique,126,306,inférieure à 120mg/ml,normal,163,non,0.0,ascendante,0,normal,0,0
+49,femme,asymptomatique,130,269,inférieure à 120mg/ml,normal,163,non,0.0,ascendante,0,normal,0,0
+61,homme,angine typique,134,234,inférieure à 120mg/ml,normal,145,non,2.6,plate,2,normal,2,1
+60,femme,douleur non angineuse,120,178,supérieure à 120mg/ml,normal,96,non,0.0,ascendante,0,normal,0,0
+67,homme,asymptomatique,120,237,inférieure à 120mg/ml,normal,71,non,1.0,plate,0,normal,2,1
+58,homme,asymptomatique,100,234,inférieure à 120mg/ml,normal,156,non,0.1,ascendante,1,défaut réversible,2,1
+47,homme,asymptomatique,110,275,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,118,oui,1.0,plate,1,normal,1,1
+52,homme,asymptomatique,125,212,inférieure à 120mg/ml,normal,168,non,1.0,ascendante,2,défaut réversible,3,1
+62,homme,angine atypique,128,208,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,140,non,0.0,ascendante,0,normal,0,0
+57,homme,asymptomatique,110,201,inférieure à 120mg/ml,normal,126,oui,1.5,plate,0,défaut fixe,0,0
+58,homme,asymptomatique,146,218,inférieure à 120mg/ml,normal,105,non,2.0,plate,1,défaut réversible,1,1
+64,homme,asymptomatique,128,263,inférieure à 120mg/ml,normal,105,oui,0.2,plate,1,défaut réversible,0,0
+51,femme,douleur non angineuse,120,295,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,157,non,0.6,ascendante,0,normal,0,0
+43,homme,asymptomatique,115,303,inférieure à 120mg/ml,normal,181,non,1.2,plate,0,normal,0,0
+42,femme,douleur non angineuse,120,209,inférieure à 120mg/ml,normal,173,non,0.0,plate,0,normal,0,0
+67,femme,asymptomatique,106,223,inférieure à 120mg/ml,normal,142,non,0.3,ascendante,2,normal,0,0
+76,femme,douleur non angineuse,140,197,inférieure à 120mg/ml,anomalie onde ST-T,116,non,1.1,plate,0,normal,0,0
+70,homme,angine atypique,156,245,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,143,non,0.0,ascendante,0,normal,0,0
+57,homme,angine atypique,124,261,inférieure à 120mg/ml,normal,141,non,0.3,ascendante,0,défaut réversible,1,1
+44,femme,douleur non angineuse,118,242,inférieure à 120mg/ml,normal,149,non,0.3,plate,1,normal,0,0
+58,femme,angine atypique,136,319,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,152,non,0.0,ascendante,2,normal,3,1
+60,femme,angine typique,150,240,inférieure à 120mg/ml,normal,171,non,0.9,ascendante,0,normal,0,0
+44,homme,douleur non angineuse,120,226,inférieure à 120mg/ml,normal,169,non,0.0,ascendante,0,normal,0,0
+61,homme,asymptomatique,138,166,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,125,oui,3.6,plate,1,normal,4,1
+42,homme,asymptomatique,136,315,inférieure à 120mg/ml,normal,125,oui,1.8,plate,0,défaut fixe,2,1
+59,homme,douleur non angineuse,126,218,supérieure à 120mg/ml,normal,134,non,2.2,plate,1,défaut fixe,2,1
+40,homme,asymptomatique,152,223,inférieure à 120mg/ml,normal,181,non,0.0,ascendante,0,défaut réversible,1,1
+42,homme,douleur non angineuse,130,180,inférieure à 120mg/ml,normal,150,non,0.0,ascendante,0,normal,0,0
+61,homme,asymptomatique,140,207,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,138,oui,1.9,ascendante,1,défaut réversible,1,1
+66,homme,asymptomatique,160,228,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,138,non,2.3,ascendante,0,défaut fixe,0,0
+46,homme,asymptomatique,140,311,inférieure à 120mg/ml,normal,120,oui,1.8,plate,2,défaut réversible,2,1
+71,femme,asymptomatique,112,149,inférieure à 120mg/ml,normal,125,non,1.6,plate,0,normal,0,0
+59,homme,angine typique,134,204,inférieure à 120mg/ml,normal,162,non,0.8,ascendante,2,normal,1,1
+64,homme,angine typique,170,227,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,155,non,0.6,plate,0,défaut réversible,0,0
+66,femme,douleur non angineuse,146,278,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,152,non,0.0,plate,1,normal,0,0
+39,femme,douleur non angineuse,138,220,inférieure à 120mg/ml,normal,152,non,0.0,plate,0,normal,0,0
+57,homme,angine atypique,154,232,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,164,non,0.0,ascendante,1,normal,1,1
+58,femme,asymptomatique,130,197,inférieure à 120mg/ml,normal,131,non,0.6,plate,0,normal,0,0
+57,homme,asymptomatique,110,335,inférieure à 120mg/ml,normal,143,oui,3.0,plate,1,défaut réversible,2,1
+47,homme,douleur non angineuse,130,253,inférieure à 120mg/ml,normal,179,non,0.0,ascendante,0,normal,0,0
+55,femme,asymptomatique,128,205,inférieure à 120mg/ml,anomalie onde ST-T,130,oui,2.0,plate,1,défaut réversible,3,1
+35,homme,angine atypique,122,192,inférieure à 120mg/ml,normal,174,non,0.0,ascendante,0,normal,0,0
+61,homme,asymptomatique,148,203,inférieure à 120mg/ml,normal,161,non,0.0,ascendante,1,défaut réversible,2,1
+58,homme,asymptomatique,114,318,inférieure à 120mg/ml,anomalie onde ST-T,140,non,4.4,descendante,3,défaut fixe,4,1
+58,femme,asymptomatique,170,225,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,146,oui,2.8,plate,2,défaut fixe,2,1
+56,homme,angine atypique,130,221,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,163,non,0.0,ascendante,0,défaut réversible,0,0
+56,homme,angine atypique,120,240,inférieure à 120mg/ml,normal,169,non,0.0,descendante,0,normal,0,0
+67,homme,douleur non angineuse,152,212,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,150,non,0.8,plate,0,défaut réversible,1,1
+55,femme,angine atypique,132,342,inférieure à 120mg/ml,normal,166,non,1.2,ascendante,0,normal,0,0
+44,homme,asymptomatique,120,169,inférieure à 120mg/ml,normal,144,oui,2.8,descendante,0,défaut fixe,2,1
+63,homme,asymptomatique,140,187,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,144,oui,4.0,ascendante,2,défaut réversible,2,1
+63,femme,asymptomatique,124,197,inférieure à 120mg/ml,normal,136,oui,0.0,plate,0,normal,1,1
+41,homme,angine atypique,120,157,inférieure à 120mg/ml,normal,182,non,0.0,ascendante,0,normal,0,0
+59,homme,asymptomatique,164,176,supérieure à 120mg/ml,hypertrophie ventriculaire gauche,90,non,1.0,plate,2,défaut fixe,3,1
+57,femme,asymptomatique,140,241,inférieure à 120mg/ml,normal,123,oui,0.2,plate,0,défaut réversible,1,1
+45,homme,angine typique,110,264,inférieure à 120mg/ml,normal,132,non,1.2,plate,0,défaut réversible,1,1
+68,homme,asymptomatique,144,193,supérieure à 120mg/ml,normal,141,non,3.4,plate,2,défaut réversible,2,1
+57,homme,asymptomatique,130,131,inférieure à 120mg/ml,normal,115,oui,1.2,plate,1,défaut réversible,3,1
+57,femme,angine atypique,130,236,inférieure à 120mg/ml,hypertrophie ventriculaire gauche,174,non,0.0,plate,1,normal,1,1
