@@ -8,6 +8,7 @@ APP.PY - Application Dash Principale
 import dash
 from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
+import os
 
 # Initialiser l'app Dash
 app = dash.Dash(
