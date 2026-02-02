@@ -285,6 +285,8 @@ python app.py
 ```
 
 3. Ouvrez votre navigateur à l'adresse : `http://localhost:8050`
+4. Disponible en ligne sur : `https://hearthpredict.onrender.com`
+5. Le lien de la présentation du projet:
 
 ### Notebook Jupyter
 
