@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 import sys
 sys.path.append('..')
-from ..utils import load_data, load_optimized_models, load_metrics, COLORS
+from utils import load_data, load_optimized_models, load_metrics, COLORS
 
 dash.register_page(__name__, path='/modelisation', name='Modélisation')
 
