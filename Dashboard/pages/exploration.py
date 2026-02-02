@@ -15,7 +15,7 @@ import numpy as np
 from scipy.stats import chi2_contingency, norm
 import sys
 sys.path.append('..')
-from utils import load_data, load_data_2, load_model
+from ..utils import load_data, load_data_2, load_model
 
 dash.register_page(__name__, path='/exploration', name='Exploration')
 
