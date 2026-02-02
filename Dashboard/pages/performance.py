@@ -78,18 +78,8 @@ layout = dbc.Container([
                     dbc.Col([
                         html.Div([
                             html.I(className="fas fa-tree text-orange fa-3x mb-2"),
-                            html.H6("Decision Tree", className="mb-2"),
-                            html.P("Arbre de décision", className="small text-muted mb-0")
-                        ], className="text-center p-3", 
-                           style={'background': '#FFF8F3', 'borderRadius': '12px', 
-                                 'border': '2px solid #FFD4B8', 'height': '150px'})
-                    ], xs=6, md=4, lg=2, className="mb-3"),
-                    
-                    dbc.Col([
-                        html.Div([
-                            html.I(className="fas fa-project-diagram text-orange fa-3x mb-2"),
-                            html.H6("Random Forest", className="mb-2"),
-                            html.P("Ensemble d'arbres", className="small text-muted mb-0")
+                            html.H6("Logistic Regression", className="mb-2"),
+                            html.P("Régression logistique", className="small text-muted mb-0")
                         ], className="text-center p-3", 
                            style={'background': '#FFF8F3', 'borderRadius': '12px', 
                                  'border': '2px solid #FFD4B8', 'height': '150px'})
@@ -98,8 +88,8 @@ layout = dbc.Container([
                     dbc.Col([
                         html.Div([
                             html.I(className="fas fa-vector-square text-orange fa-3x mb-2"),
-                            html.H6("Nu SVC", className="mb-2"),
-                            html.P("Support Vector Classifier", className="small text-muted mb-0")
+                            html.H6("Linear DA", className="mb-2"),
+                            html.P("Linear Discriminant Analysis", className="small text-muted mb-0")
                         ], className="text-center p-3", 
                            style={'background': '#FFF8F3', 'borderRadius': '12px', 
                                  'border': '2px solid #FFD4B8', 'height': '150px'})
