@@ -285,7 +285,7 @@ python app.py
 ```
 
 3. Ouvrez votre navigateur à l'adresse : `http://localhost:8050`
-4. Disponible en ligne sur : `https://hearthpredict.onrender.com`
+4. Disponible en ligne sur : [HearthPredict](https://hearthpredict.onrender.com)
 5. Le lien de la présentation du projet:
 
 ### Notebook Jupyter
@@ -439,6 +439,7 @@ Projet académique - ENSAE - 2026
 ## Contact
 
 Pour toute question ou suggestion concernant ce projet, veuillez contacter l'équipe via :
+Mail: dossekoumano@gmail.com
 - Institution : ENSAE - École Nationale de la Statistique et de l'Analyse Économique
 
 ---
