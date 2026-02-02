@@ -24,10 +24,9 @@ def load_model(model_path='models/best_model.pkl'):
         if not os.path.isabs(model_path):
             # Obtenir le chemin du fichier actuel (utils.py)
             current_file = os.path.abspath(__file__)
-            # Remonter au dossier racine du projet
-            base_dir = os.path.dirname(os.path.dirname(current_file))
-            # Construire le chemin absolu
-            model_path = os.path.join(base_dir, model_path)
+            dashboard_dir = os.path.dirname(current_file)
+            # Le modèle est dans Dashboard/models/
+            model_path = os.path.join(dashboard_dir, model_path)
         
         print(f"Chargement du modèle depuis: {model_path}")
         
@@ -51,10 +50,9 @@ def load_scaler(scaler_path='models/scaler.pkl'):
         if not os.path.isabs(scaler_path):
             # Obtenir le chemin du fichier actuel (utils.py)
             current_file = os.path.abspath(__file__)
-            # Remonter au dossier racine du projet
-            base_dir = os.path.dirname(os.path.dirname(current_file))
-            # Construire le chemin absolu
-            scaler_path = os.path.join(base_dir, scaler_path)
+            dashboard_dir = os.path.dirname(current_file)
+            # Le scaler est dans Dashboard/models/
+            scaler_path = os.path.join(dashboard_dir, scaler_path)
         
         print(f"Chargement du scaler depuis: {scaler_path}")
         
@@ -157,8 +155,9 @@ def load_metrics():
             return {}
         
         # Validation croisée
-        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        data_path = os.path.join(base_dir, 'data', 'results', 'cross_validation_results.csv')
+        current_file = os.path.abspath(__file__)
+        dashboard_dir = os.path.dirname(current_file)
+        data_path = os.path.join(dashboard_dir, 'data', 'results', 'cross_validation_results.csv')
         df_cv = pd.read_csv(data_path)
         
         return {
