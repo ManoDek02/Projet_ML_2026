@@ -286,7 +286,7 @@ python app.py
 
 3. Ouvrez votre navigateur à l'adresse : `http://localhost:8050`
 4. Disponible en ligne sur : [HearthPredict](https://hearthpredict.onrender.com)
-5. Le lien de la présentation du projet:
+5. Le lien de la présentation du projet : [PowerPoint](https://www.canva.com/design/DAG_ximhc84/L14oV74dl9BSzKQ6DuBBmA/edit?utm_content=DAG_ximhc84&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Notebook Jupyter
 
