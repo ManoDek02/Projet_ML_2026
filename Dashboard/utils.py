@@ -73,23 +73,24 @@ def load_scaler(scaler_path='models/scaler.pkl'):
 def load_data():
     """Charge un fichier CSV"""
     current_file = os.path.abspath(__file__)
-    base_dir = os.path.dirname(os.path.dirname(current_file))
-    data_path = os.path.join(base_dir, 'data', 'results', 'heart_disease_df_3.csv')
+    dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/    
+    data_path = os.path.join(dashboard_dir, 'data', 'results', 'heart_disease_df_3.csv')
     df = pd.read_csv(data_path)
     return df
 
 def load_data_2():
     """Charge un fichier CSV"""
     current_file = os.path.abspath(__file__)
-    base_dir = os.path.dirname(os.path.dirname(current_file))
-    data_path = os.path.join(base_dir, 'data', 'raw', 'heart_disease_df_2.csv')
+    dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/    
+    data_path = os.path.join(dashboard_dir, 'data', 'raw', 'heart_disease_df_2.csv')
     df = pd.read_csv(data_path)
     return df
 
 def load_optimized_models():
     """Charge les résultats optimisés et retourne un dict formaté"""
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    data_path = os.path.join(base_dir, 'data', 'results', 'optimized_df.csv')
+    current_file = os.path.abspath(__file__)
+    dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/
+    data_path = os.path.join(dashboard_dir, 'data', 'results', 'optimized_df.csv')
     df = pd.read_csv(data_path)
     df = df.set_index('Modèle')
 
@@ -143,8 +144,10 @@ def load_metrics():
     try:
         
         # Courbes ROC
-        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        metrics_path = os.path.join(base_dir, 'data', 'results', 'roc_curves_data.json')
+        current_file = os.path.abspath(__file__)
+        dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/
+        
+        metrics_path = os.path.join(dashboard_dir, 'data', 'results', 'roc_curves_data.json')
         if os.path.exists(metrics_path):
             with open(metrics_path, 'r') as f:
                 return json.load(f)
