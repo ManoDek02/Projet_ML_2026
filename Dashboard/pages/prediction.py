@@ -16,7 +16,7 @@ import os
 import datetime
 from fpdf import FPDF
 sys.path.append('..')
-from ..utils import load_model, load_scaler, make_prediction
+from utils import load_model, load_scaler, make_prediction
 
 dash.register_page(__name__, path='/prediction', name='Prédiction')
 
