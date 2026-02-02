@@ -72,14 +72,16 @@ def load_scaler(scaler_path='models/scaler.pkl'):
 
 def load_data():
     """Charge un fichier CSV"""
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    current_file = os.path.abspath(__file__)
+    base_dir = os.path.dirname(os.path.dirname(current_file))
     data_path = os.path.join(base_dir, 'data', 'results', 'heart_disease_df_3.csv')
     df = pd.read_csv(data_path)
     return df
 
 def load_data_2():
     """Charge un fichier CSV"""
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    current_file = os.path.abspath(__file__)
+    base_dir = os.path.dirname(os.path.dirname(current_file))
     data_path = os.path.join(base_dir, 'data', 'raw', 'heart_disease_df_2.csv')
     df = pd.read_csv(data_path)
     return df
