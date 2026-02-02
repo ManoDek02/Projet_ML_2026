@@ -16,7 +16,7 @@ from dash import html
 # CHARGEMENT DES DONNÉES
 # ============================================================================
 
-def load_model(model_path='models/voting_classifier.pkl'):
+def load_model(model_path='models/best_model.pkl'):
     """Charge le modèle sauvegardé"""
     with open(model_path, 'rb') as f:
         return pickle.load(f)
