@@ -1,7 +1,7 @@
 ﻿,Nombre,Moyenne,Médiane,Écart-type,Min,Max
-âge,4.0,53.25,57.5,10.242883708539635,38.0,60.0
-cholestérol,4.0,265.25,262.5,35.08442199419376,231.0,305.0
-pression_artérielle_repos,4.0,134.5,130.0,18.284784202536635,120.0,158.0
-fréquence_cardiaque_maximale,4.0,156.5,160.5,24.528894525980306,123.0,182.0
-dépression_st,4.0,1.45,1.0,1.761628034896508,0.0,3.8
-nombre_vaisseaux_majeurs,4.0,0.0,0.0,0.0,0.0,0.0
+âge,1.0,52.0,52.0,,52.0,52.0
+cholestérol,1.0,230.0,230.0,,230.0,230.0
+pression_artérielle_repos,1.0,112.0,112.0,,112.0,112.0
+fréquence_cardiaque_maximale,1.0,160.0,160.0,,160.0,160.0
+dépression_st,1.0,0.0,0.0,,0.0,0.0
+nombre_vaisseaux_majeurs,1.0,1.0,1.0,,1.0,1.0
