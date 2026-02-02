@@ -140,34 +140,42 @@ def load_optimized_models():
 def load_metrics():
     """Charge toutes les métriques depuis les fichiers"""
     try:
-        
-        # Courbes ROC
-        current_file = os.path.abspath(__file__)
-        dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/
-        
-        metrics_path = os.path.join(dashboard_dir, 'data', 'results', 'roc_curves_data.json')
-        if os.path.exists(metrics_path):
-            with open(metrics_path, 'r') as f:
-                return json.load(f)
-            roc_data = json.load(f)
-        else:
-            print("Fichier métriques non trouvé")
-            return {}
-        
-        # Validation croisée
+        # Obtenir le dossier Dashboard
         current_file = os.path.abspath(__file__)
         dashboard_dir = os.path.dirname(current_file)
-        data_path = os.path.join(dashboard_dir, 'data', 'results', 'cross_validation_results.csv')
-        df_cv = pd.read_csv(data_path)
         
+        # === COURBES ROC ===
+        roc_path = os.path.join(dashboard_dir, 'data', 'results', 'roc_curves_data.json')
+        
+        if os.path.exists(roc_path):
+            with open(roc_path, 'r') as f:
+                roc_data = json.load(f)  # ✓ Lecture correcte
+            print(f"✓ Métriques ROC chargées: {list(roc_data.keys())}")
+        else:
+            print(f"Fichier ROC non trouvé: {roc_path}")
+            roc_data = {}
+        
+        # === VALIDATION CROISÉE ===
+        cv_path = os.path.join(dashboard_dir, 'data', 'results', 'cross_validation_results.csv')
+        
+        if os.path.exists(cv_path):
+            df_cv = pd.read_csv(cv_path)
+            print(f"✓ Données CV chargées: {len(df_cv)} lignes")
+        else:
+            print(f"Fichier CV non trouvé: {cv_path}")
+            df_cv = pd.DataFrame()  # DataFrame vide
+        
+        # Retourner toutes les métriques
         return {
             'roc': roc_data,
             'cv': df_cv,
         }
+        
     except Exception as e:
         print(f"Erreur chargement métriques: {e}")
-        return None
-
+        import traceback
+        traceback.print_exc()
+        return {}  # Retourne dict vide au lieu de None
 
 # Ajouter ces lignes :
 VARS_NUM = [
