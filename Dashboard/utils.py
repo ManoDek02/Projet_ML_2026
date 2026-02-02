@@ -18,14 +18,57 @@ from dash import html
 # ============================================================================
 
 def load_model(model_path='models/best_model.pkl'):
-    """Charge le modèle sauvegardé"""
-    with open(model_path, 'rb') as f:
-        return pickle.load(f)
+    """Charge le modèle sauvegardé avec chemin absolu"""
+    try:
+        # Si le chemin est relatif, le convertir en absolu
+        if not os.path.isabs(model_path):
+            # Obtenir le chemin du fichier actuel (utils.py)
+            current_file = os.path.abspath(__file__)
+            # Remonter au dossier racine du projet
+            base_dir = os.path.dirname(os.path.dirname(current_file))
+            # Construire le chemin absolu
+            model_path = os.path.join(base_dir, model_path)
+        
+        print(f"Chargement du modèle depuis: {model_path}")
+        
+        if os.path.exists(model_path):
+            with open(model_path, 'rb') as f:
+                model = pickle.load(f)
+            print(f"✓ Modèle chargé avec succès")
+            return model
+        else:
+            print(f"Fichier modèle non trouvé: {model_path}")
+            return None
+    except Exception as e:
+        print(f"Erreur chargement modèle: {e}")
+        return None
+
 
 def load_scaler(scaler_path='models/scaler.pkl'):
-    """Charge le scaler"""
-    with open(scaler_path, 'rb') as f:
-        return pickle.load(f)
+    """Charge le scaler avec chemin absolu"""
+    try:
+        # Si le chemin est relatif, le convertir en absolu
+        if not os.path.isabs(scaler_path):
+            # Obtenir le chemin du fichier actuel (utils.py)
+            current_file = os.path.abspath(__file__)
+            # Remonter au dossier racine du projet
+            base_dir = os.path.dirname(os.path.dirname(current_file))
+            # Construire le chemin absolu
+            scaler_path = os.path.join(base_dir, scaler_path)
+        
+        print(f"Chargement du scaler depuis: {scaler_path}")
+        
+        if os.path.exists(scaler_path):
+            with open(scaler_path, 'rb') as f:
+                scaler = pickle.load(f)
+            print(f"✓ Scaler chargé avec succès")
+            return scaler
+        else:
+            print(f"Fichier scaler non trouvé: {scaler_path}")
+            return None
+    except Exception as e:
+        print(f"Erreur chargement scaler: {e}")
+        return None
 
 def load_data():
     """Charge un fichier CSV"""
@@ -100,9 +143,13 @@ def load_metrics():
         # Courbes ROC
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         metrics_path = os.path.join(base_dir, 'data', 'results', 'roc_curves_data.json')
-        with open(metrics_path, 'r') as f:
+        if os.path.exists(metrics_path):
+            with open(metrics_path, 'r') as f:
                 return json.load(f)
             roc_data = json.load(f)
+        else:
+            print("Fichier métriques non trouvé")
+            return {}
         
         # Validation croisée
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
