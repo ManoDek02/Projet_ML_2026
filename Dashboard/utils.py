@@ -17,7 +17,7 @@ from dash import html
 # CHARGEMENT DES DONNÉES
 # ============================================================================
 
-def load_model(model_path='models/voting_classifier.pkl'):
+def load_model(model_path='models/best_model.pkl'):
     """Charge le modèle sauvegardé avec chemin absolu"""
     try:
         # Si le chemin est relatif, le convertir en absolu

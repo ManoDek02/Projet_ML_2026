@@ -1,2 +1,4 @@
 ﻿,âge,sexe,type_douleur_thoracique,pression_artérielle_repos,cholestérol,glycémie_à_jeun,fréquence_cardiaque_maximale,angine_induite_par_exercice,dépression_st,nombre_vaisseaux_majeurs,thalassémie,Vraie_Classe,Prédiction,Probabilité_Malade
-214,52,Homme,Asymptomatique,112,230,Inférieure à 120mg/ml,160,Non,0.0,1,Normal,Malade,Sain (ERREUR),0.49903289068510265
+214,52,Homme,Asymptomatique,112,230,Inférieure à 120mg/ml,160,Non,0.0,1,Normal,Malade,Sain (ERREUR),0.22518957372280152
+184,60,Femme,Asymptomatique,158,305,Inférieure à 120mg/ml,161,Non,0.0,0,Normal,Malade,Sain (ERREUR),0.19584437388582931
+22,58,Homme,Angine atypique,120,284,Inférieure à 120mg/ml,160,Non,1.8,0,Normal,Malade,Sain (ERREUR),0.2329407739856872
