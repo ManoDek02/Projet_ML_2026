@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import json
+import os
 from pathlib import Path
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
@@ -40,7 +41,7 @@ def load_data_2():
     df = pd.read_csv(data_path)
     return df
 
-def load_optimized_models(data_path='data/results/optimized_df.csv'):
+def load_optimized_models():
     """Charge les résultats optimisés et retourne un dict formaté"""
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_path = os.path.join(base_dir, 'data', 'results', 'optimized_df.csv')
@@ -97,11 +98,16 @@ def load_metrics():
     try:
         
         # Courbes ROC
-        with open('data/results/roc_curves_data.json', 'r') as f:
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        metrics_path = os.path.join(base_dir, 'data', 'results', 'roc_curves_data.json')
+        with open(metrics_path, 'r') as f:
+                return json.load(f)
             roc_data = json.load(f)
         
         # Validation croisée
-        df_cv = pd.read_csv('data/results/cross_validation_results.csv')
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        data_path = os.path.join(base_dir, 'data', 'results', 'cross_validation_results.csv')
+        df_cv = pd.read_csv(data_path)
         
         return {
             'roc': roc_data,
