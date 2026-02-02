@@ -437,7 +437,6 @@ Projet académique - ENSAE - 2026
 ## Contact
 
 Pour toute question ou suggestion concernant ce projet, veuillez contacter l'équipe via :
-- Email de projet : [à compléter]
 - Institution : ENSAE - École Nationale de la Statistique et de l'Analyse Économique
 
 ---
