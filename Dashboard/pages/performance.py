@@ -87,7 +87,7 @@ layout = dbc.Container([
                     
                     dbc.Col([
                         html.Div([
-                            html.I(className="fas fa-vector-square text-orange fa-3x mb-2"),
+                            html.I(className="fas fa-line text-orange fa-3x mb-2"),
                             html.H6("Linear DA", className="mb-2"),
                             html.P("Linear Discriminant Analysis", className="small text-muted mb-0")
                         ], className="text-center p-3", 
@@ -100,6 +100,16 @@ layout = dbc.Container([
                             html.I(className="fas fa-microchip text-orange fa-3x mb-2"),
                             html.H6("Naive Bayes", className="mb-2"),
                             html.P("Probabilités bayésiennes", className="small text-muted mb-0")
+                        ], className="text-center p-3", 
+                           style={'background': '#FFF8F3', 'borderRadius': '12px', 
+                                 'border': '2px solid #FFD4B8', 'height': '150px'})
+                    ], xs=6, md=4, lg=2, className="mb-3"),
+                    
+                    dbc.Col([
+                        html.Div([
+                            html.I(className="fas fa-vector-square text-orange fa-3x mb-2"),
+                            html.H6("Support Vectors", className="mb-2"),
+                            html.P("Support Vector Machine", className="small text-muted mb-0")
                         ], className="text-center p-3", 
                            style={'background': '#FFF8F3', 'borderRadius': '12px', 
                                  'border': '2px solid #FFD4B8', 'height': '150px'})
