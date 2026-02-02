@@ -26,18 +26,24 @@ def load_scaler(scaler_path='models/scaler.pkl'):
     with open(scaler_path, 'rb') as f:
         return pickle.load(f)
 
-def load_data(data_path='data/results/heart_disease_df_3.csv'):
+def load_data():
     """Charge un fichier CSV"""
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_path = os.path.join(base_dir, 'data', 'results', 'heart_disease_df_3.csv')
     df = pd.read_csv(data_path)
     return df
 
-def load_data_2(data_path='data/raw/heart_disease_df_2.csv'):
+def load_data_2():
     """Charge un fichier CSV"""
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_path = os.path.join(base_dir, 'data', 'raw', 'heart_disease_df_2.csv')
     df = pd.read_csv(data_path)
     return df
 
 def load_optimized_models(data_path='data/results/optimized_df.csv'):
     """Charge les résultats optimisés et retourne un dict formaté"""
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_path = os.path.join(base_dir, 'data', 'results', 'optimized_df.csv')
     df = pd.read_csv(data_path)
     df = df.set_index('Modèle')
 
