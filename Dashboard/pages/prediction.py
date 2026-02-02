@@ -492,7 +492,7 @@ def generate_pdf_report(n_clicks, data):
     
     pdf.set_font("Arial", '', 12)
     pdf.set_text_color(0, 0, 0)
-    pdf.cell(0, 10, f"Probabilité: {prob:.1%} | Niveau de Risque: {risk_level}", 0, 1, 'C')
+    pdf.cell(0, 10, f"Probabilité: {prob} | Niveau de Risque: {risk_level}", 0, 1, 'C')
     pdf.ln(10)
     
     # Advice
