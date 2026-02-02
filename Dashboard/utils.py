@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import json
+import os
 from pathlib import Path
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
@@ -16,28 +17,78 @@ from dash import html
 # CHARGEMENT DES DONNÉES
 # ============================================================================
 
-def load_model(model_path='models/best_model.pkl'):
-    """Charge le modèle sauvegardé"""
-    with open(model_path, 'rb') as f:
-        return pickle.load(f)
+def load_model(model_path='models/voting_classifier.pkl'):
+    """Charge le modèle sauvegardé avec chemin absolu"""
+    try:
+        # Si le chemin est relatif, le convertir en absolu
+        if not os.path.isabs(model_path):
+            # Obtenir le chemin du fichier actuel (utils.py)
+            current_file = os.path.abspath(__file__)
+            dashboard_dir = os.path.dirname(current_file)
+            # Le modèle est dans Dashboard/models/
+            model_path = os.path.join(dashboard_dir, model_path)
+        
+        print(f"Chargement du modèle depuis: {model_path}")
+        
+        if os.path.exists(model_path):
+            with open(model_path, 'rb') as f:
+                model = pickle.load(f)
+            print(f"✓ Modèle chargé avec succès")
+            return model
+        else:
+            print(f"Fichier modèle non trouvé: {model_path}")
+            return None
+    except Exception as e:
+        print(f"Erreur chargement modèle: {e}")
+        return None
+
 
 def load_scaler(scaler_path='models/scaler.pkl'):
-    """Charge le scaler"""
-    with open(scaler_path, 'rb') as f:
-        return pickle.load(f)
+    """Charge le scaler avec chemin absolu"""
+    try:
+        # Si le chemin est relatif, le convertir en absolu
+        if not os.path.isabs(scaler_path):
+            # Obtenir le chemin du fichier actuel (utils.py)
+            current_file = os.path.abspath(__file__)
+            dashboard_dir = os.path.dirname(current_file)
+            # Le scaler est dans Dashboard/models/
+            scaler_path = os.path.join(dashboard_dir, scaler_path)
+        
+        print(f"Chargement du scaler depuis: {scaler_path}")
+        
+        if os.path.exists(scaler_path):
+            with open(scaler_path, 'rb') as f:
+                scaler = pickle.load(f)
+            print(f"✓ Scaler chargé avec succès")
+            return scaler
+        else:
+            print(f"Fichier scaler non trouvé: {scaler_path}")
+            return None
+    except Exception as e:
+        print(f"Erreur chargement scaler: {e}")
+        return None
 
-def load_data(data_path='data/results/heart_disease_df_3.csv'):
+def load_data():
     """Charge un fichier CSV"""
+    current_file = os.path.abspath(__file__)
+    dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/    
+    data_path = os.path.join(dashboard_dir, 'data', 'results', 'heart_disease_df_3.csv')
     df = pd.read_csv(data_path)
     return df
 
-def load_data_2(data_path='data/raw/heart_disease_df_2.csv'):
+def load_data_2():
     """Charge un fichier CSV"""
+    current_file = os.path.abspath(__file__)
+    dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/    
+    data_path = os.path.join(dashboard_dir, 'data', 'raw', 'heart_disease_df_2.csv')
     df = pd.read_csv(data_path)
     return df
 
-def load_optimized_models(data_path='data/results/optimized_df.csv'):
+def load_optimized_models():
     """Charge les résultats optimisés et retourne un dict formaté"""
+    current_file = os.path.abspath(__file__)
+    dashboard_dir = os.path.dirname(current_file)  # Reste dans Dashboard/
+    data_path = os.path.join(dashboard_dir, 'data', 'results', 'optimized_df.csv')
     df = pd.read_csv(data_path)
     df = df.set_index('Modèle')
 
@@ -89,22 +140,42 @@ def load_optimized_models(data_path='data/results/optimized_df.csv'):
 def load_metrics():
     """Charge toutes les métriques depuis les fichiers"""
     try:
+        # Obtenir le dossier Dashboard
+        current_file = os.path.abspath(__file__)
+        dashboard_dir = os.path.dirname(current_file)
         
-        # Courbes ROC
-        with open('data/results/roc_curves_data.json', 'r') as f:
-            roc_data = json.load(f)
+        # === COURBES ROC ===
+        roc_path = os.path.join(dashboard_dir, 'data', 'results', 'roc_curves_data.json')
         
-        # Validation croisée
-        df_cv = pd.read_csv('data/results/cross_validation_results.csv')
+        if os.path.exists(roc_path):
+            with open(roc_path, 'r') as f:
+                roc_data = json.load(f)  # ✓ Lecture correcte
+            print(f"✓ Métriques ROC chargées: {list(roc_data.keys())}")
+        else:
+            print(f"Fichier ROC non trouvé: {roc_path}")
+            roc_data = {}
         
+        # === VALIDATION CROISÉE ===
+        cv_path = os.path.join(dashboard_dir, 'data', 'results', 'cross_validation_results.csv')
+        
+        if os.path.exists(cv_path):
+            df_cv = pd.read_csv(cv_path)
+            print(f"✓ Données CV chargées: {len(df_cv)} lignes")
+        else:
+            print(f"Fichier CV non trouvé: {cv_path}")
+            df_cv = pd.DataFrame()  # DataFrame vide
+        
+        # Retourner toutes les métriques
         return {
             'roc': roc_data,
             'cv': df_cv,
         }
+        
     except Exception as e:
         print(f"Erreur chargement métriques: {e}")
-        return None
-
+        import traceback
+        traceback.print_exc()
+        return {}  # Retourne dict vide au lieu de None
 
 # Ajouter ces lignes :
 VARS_NUM = [
