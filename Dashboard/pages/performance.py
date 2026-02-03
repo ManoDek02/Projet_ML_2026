@@ -204,13 +204,13 @@ layout = dbc.Container([
                         options=[
                             {'label': 'Accuracy', 'value': 'accuracy'},
                             {'label': 'Precision', 'value': 'precision'},
-                            {'label': 'Recall (utilisé)', 'value': 'recall'},
-                            {'label': 'F1-Score', 'value': 'f1_score'},
+                            {'label': 'Recall', 'value': 'recall'},
+                            {'label': 'F1-Score (utilisé)', 'value': 'f1_score'},
                         ],
                         value='recall',
                         clearable=False
                     ),
-                    html.Small("Note: Recall est utilisé pour le modèle final", 
+                    html.Small("Note: F1-Score est utilisé pour le modèle final", 
                              className="text-muted fst-italic")
                 ], className="mb-4"),
                 
@@ -836,8 +836,8 @@ def update_analysis(metric):
             html.H6("Métriques:", className="text-orange mb-2"),
             html.Ul([
                 html.Li(f"Recall: {best_res['recall']:.1%} ⭐"),
-                html.Li(f"Precision: {best_res['precision']:.1%}"),
                 html.Li(f"F1-Score: {best_res['f1_score']:.1%}"),
+                html.Li(f"Precision: {best_res['precision']:.1%}"),
                 html.Li(f"Accuracy: {best_res['accuracy']:.1%}"),
             ], className="small"),
             
