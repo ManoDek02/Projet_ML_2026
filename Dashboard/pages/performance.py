@@ -157,7 +157,6 @@ layout = dbc.Container([
                             html.Ul([
                                 html.Li("Normalisation: RobustScaler"),
                                 html.Li("Split: 75% train / 25% test"),
-                                html.Li("Stratification par classe"),
                             ], className="small")
                         ], style={'background': '#FFF8F3', 'padding': '1rem', 
                                 'borderRadius': '12px', 'border': '2px solid #FFD4B8'})
@@ -171,7 +170,7 @@ layout = dbc.Container([
                             ], className="mb-2 text-center"),
                             html.Ul([
                                 html.Li("Cross-validation: 5-fold"),
-                                html.Li([html.Strong("Métrique: Recall", 
+                                html.Li([html.Strong("Métrique: F1-Score/Recall", 
                                        style={'color': '#FF6B35'})]),
                                 html.Li("Recall crucial en médecine"),
                             ], className="small")
