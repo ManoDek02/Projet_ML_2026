@@ -8,6 +8,7 @@ APP.PY - Application Dash Principale
 import dash
 from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
+import os
 
 # Initialiser l'app Dash
 app = dash.Dash(
@@ -165,4 +166,5 @@ def update_active_link(pathname):
 # ============================================================================
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8051)
+    port = int(os.environ.get('PORT', 8050))
+    app.run_server(host='0.0.0.0', port=port, debug=False)

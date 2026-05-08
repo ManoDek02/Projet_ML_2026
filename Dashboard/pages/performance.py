@@ -78,8 +78,8 @@ layout = dbc.Container([
                     dbc.Col([
                         html.Div([
                             html.I(className="fas fa-tree text-orange fa-3x mb-2"),
-                            html.H6("Decision Tree", className="mb-2"),
-                            html.P("Arbre de décision", className="small text-muted mb-0")
+                            html.H6("Logistic Regression", className="mb-2"),
+                            html.P("Régression logistique", className="small text-muted mb-0")
                         ], className="text-center p-3", 
                            style={'background': '#FFF8F3', 'borderRadius': '12px', 
                                  'border': '2px solid #FFD4B8', 'height': '150px'})
@@ -87,19 +87,9 @@ layout = dbc.Container([
                     
                     dbc.Col([
                         html.Div([
-                            html.I(className="fas fa-project-diagram text-orange fa-3x mb-2"),
-                            html.H6("Random Forest", className="mb-2"),
-                            html.P("Ensemble d'arbres", className="small text-muted mb-0")
-                        ], className="text-center p-3", 
-                           style={'background': '#FFF8F3', 'borderRadius': '12px', 
-                                 'border': '2px solid #FFD4B8', 'height': '150px'})
-                    ], xs=6, md=4, lg=2, className="mb-3"),
-                    
-                    dbc.Col([
-                        html.Div([
-                            html.I(className="fas fa-vector-square text-orange fa-3x mb-2"),
-                            html.H6("Nu SVC", className="mb-2"),
-                            html.P("Support Vector Classifier", className="small text-muted mb-0")
+                            html.I(className="fas fa-line text-orange fa-3x mb-2"),
+                            html.H6("Linear DA", className="mb-2"),
+                            html.P("Linear Discriminant Analysis", className="small text-muted mb-0")
                         ], className="text-center p-3", 
                            style={'background': '#FFF8F3', 'borderRadius': '12px', 
                                  'border': '2px solid #FFD4B8', 'height': '150px'})
@@ -110,6 +100,16 @@ layout = dbc.Container([
                             html.I(className="fas fa-microchip text-orange fa-3x mb-2"),
                             html.H6("Naive Bayes", className="mb-2"),
                             html.P("Probabilités bayésiennes", className="small text-muted mb-0")
+                        ], className="text-center p-3", 
+                           style={'background': '#FFF8F3', 'borderRadius': '12px', 
+                                 'border': '2px solid #FFD4B8', 'height': '150px'})
+                    ], xs=6, md=4, lg=2, className="mb-3"),
+                    
+                    dbc.Col([
+                        html.Div([
+                            html.I(className="fas fa-vector-square text-orange fa-3x mb-2"),
+                            html.H6("Support Vectors", className="mb-2"),
+                            html.P("Support Vector Machine", className="small text-muted mb-0")
                         ], className="text-center p-3", 
                            style={'background': '#FFF8F3', 'borderRadius': '12px', 
                                  'border': '2px solid #FFD4B8', 'height': '150px'})
@@ -157,7 +157,6 @@ layout = dbc.Container([
                             html.Ul([
                                 html.Li("Normalisation: RobustScaler"),
                                 html.Li("Split: 75% train / 25% test"),
-                                html.Li("Stratification par classe"),
                             ], className="small")
                         ], style={'background': '#FFF8F3', 'padding': '1rem', 
                                 'borderRadius': '12px', 'border': '2px solid #FFD4B8'})
@@ -171,7 +170,7 @@ layout = dbc.Container([
                             ], className="mb-2 text-center"),
                             html.Ul([
                                 html.Li("Cross-validation: 5-fold"),
-                                html.Li([html.Strong("Métrique: Recall", 
+                                html.Li([html.Strong("Métrique: F1-Score/Recall", 
                                        style={'color': '#FF6B35'})]),
                                 html.Li("Recall crucial en médecine"),
                             ], className="small")
@@ -204,13 +203,13 @@ layout = dbc.Container([
                         options=[
                             {'label': 'Accuracy', 'value': 'accuracy'},
                             {'label': 'Precision', 'value': 'precision'},
-                            {'label': 'Recall (utilisé)', 'value': 'recall'},
-                            {'label': 'F1-Score', 'value': 'f1_score'},
+                            {'label': 'Recall', 'value': 'recall'},
+                            {'label': 'F1-Score (utilisé)', 'value': 'f1_score'},
                         ],
                         value='recall',
                         clearable=False
                     ),
-                    html.Small("Note: Recall est utilisé pour le modèle final", 
+                    html.Small("Note: F1-Score est utilisé pour le modèle final", 
                              className="text-muted fst-italic")
                 ], className="mb-4"),
                 
@@ -836,8 +835,8 @@ def update_analysis(metric):
             html.H6("Métriques:", className="text-orange mb-2"),
             html.Ul([
                 html.Li(f"Recall: {best_res['recall']:.1%} ⭐"),
-                html.Li(f"Precision: {best_res['precision']:.1%}"),
                 html.Li(f"F1-Score: {best_res['f1_score']:.1%}"),
+                html.Li(f"Precision: {best_res['precision']:.1%}"),
                 html.Li(f"Accuracy: {best_res['accuracy']:.1%}"),
             ], className="small"),
             

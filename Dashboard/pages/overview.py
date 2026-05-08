@@ -148,7 +148,7 @@ layout = dbc.Container([
                                     html.Div([
                                         html.I(className="fas fa-users me-2", style={'color': '#2196F3'}),
                                         html.Strong("Taille: "),
-                                        "297 patients"
+                                        "297 patients (après nettoyage)"
                                     ], className="mb-2 p-2", 
                                        style={'background': 'white', 'borderRadius': '8px', 'border': '2px solid #E0E0E0'}),
                                     
